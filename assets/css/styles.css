@@ -135,7 +135,7 @@ img {
 
 .home__button {
   display: inline-block;
-  margin-top: 1.5rem;
+  margin-top: 1.0rem;
   font-size: .75rem;
   color: var(--white-color);
   padding: .625rem 1rem;
@@ -165,7 +165,7 @@ img {
 
 .home__social-icon {
   margin-bottom: 2rem;
-  font-size: 1.33rem;
+  font-size: 2.33rem;
   cursor: pointer;
 }
 
@@ -226,6 +226,11 @@ img {
     width: 553px;
     right: 5%;
   }
+
+  .home__social-icon:hover {
+    color: var(--first-color);
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
