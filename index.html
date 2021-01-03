@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>Fatih Dural Personal Website</title>
-</head>
-<body>
-    <div class="box" >
-        <img src="profile.jpg" alt="" class="box-img">
-        <h1>FATIH DURAL</h1>
-        <h5>COMPUTER ENGINEER | GEBZE TECHNICAL UNIVERSITY</h5>
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/fatihdural61/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/fatihdural" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/fatihdural/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:fatihdural.iletisim@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
-            </li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Fatih Dural Web Page</title>
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
 
-        </ul>
-    </div>
-</body>
+        <!-- HEADER -->
+        <header class="l-header">
+
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hello, My name is</span>
+                    <h1 class="home__title anime-text">Fatih Dural</h1>
+                    <span class="home__skill anime-text">Computer Engineer</span>
+                    
+                    <div>
+                        <a href="#" class="home__button anime-text">DOWNLOAD CV</a>
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/img/img.jpg" alt="">
+                </div>
+                
+                <div class="home__social">
+                    <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
+                    <ion-icon name="logo-github" class="home__social-icon"></ion-icon>
+                    <ion-icon name="logo-linkedin" class="home__social-icon"></ion-icon>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
 </html>
