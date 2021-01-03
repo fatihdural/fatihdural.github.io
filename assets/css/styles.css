@@ -227,10 +227,6 @@ img {
     right: 5%;
   }
 
-  .home__social-icon:hover {
-    color: var(--first-color);
-  }
-
 }
 
 @media screen and (min-width: 1200px) {
