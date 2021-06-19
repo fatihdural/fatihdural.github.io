@@ -1,61 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <title>Fatih Dural Web Page</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Fatih Dural Personal Web Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/tooplate-style.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        <!-- OVERLAY -->
-        <div class="overlay first"></div>
-        <div class="overlay second"></div>
-        <div class="overlay third"></div>
+        
 
-        <!-- HEADER -->
-        <header class="l-header">
-
-        </header>
-
-        <!-- MAIN -->
-        <main class="l-main bd-grid">
-            <div class="home">
-                <div class="home__information">
-                    <h1 class="home__title anime-text">Fatih Dural</h1>
-                    <span class="home__skill anime-text">Computer Engineer</span>
-                    <div class="home__skill anime-text">Gebze Technical University</div>
-
-                    <div>
-                        <a href="/assets/files/cv.pdf" download class="home__button anime-text">DOWNLOAD CV</a>
-                    </div>
+        <section class="first-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="text-content">
+                  <h2>Fatih Dural</h2>
+                  <div class="line-dec"></div>
+                  <span>Computer Engineer</span>
                 </div>
-
-                <div class="home__img">
-                    <img src="assets/img/img.jpg" alt="">
-                </div>
-                
-                <div class="home__social">
-                    <ion-icon name="logo-instagram" onclick="window.open('https://www.instagram.com/fatihdural61/', '_blank')" class="home__social-icon"></ion-icon>
-                    <ion-icon name="logo-github" onclick="window.open('https://github.com/fatihdural', '_blank')" class="home__social-icon"></ion-icon>
-                    <ion-icon name="logo-linkedin" onclick="window.open('https://www.linkedin.com/in/fatihdural/', '_blank')" class="home__social-icon"></ion-icon>
-                </div>
-
+              </div>
             </div>
-        </main>
+          </div>
 
-        <script>
-            $("html").css({
-                "touch-action": "pan-down"
-            });
-        </script>
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <ul>
+                    <li><a target="_blank" href="https://www.github.com/fatihdural"><i class="fa fa-github fa-lg"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/fatihdural/"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                    <li><a target="_blank" href="https://medium.com/@fatihdural1997"><i class="fa fa-book fa-lg"></i></a></li>
+                    <li><a target="_blank" href="mailto:fatihdural1997@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+                  </ul>
+                  <p>Copyright ©<script>document.write(new Date().getFullYear());</script> Created | by Fatih Dural</p>
+                </div>
+              </div>
+            </div>
+          </footer>
 
-        <!-- GSAP -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+        </section>
 
-        <!-- MAIN -->
-        <script src="assets/js/main.js"></script>
-    
-        <!-- ICONS -->
-        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+      
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
     </body>
 </html>
